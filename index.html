@@ -1,0 +1,219 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Suspicious Resources</title>
+
+    <meta name="description" content="Suspicious Resources is a lightweight Windows utility that helps you find out why your PC may be running slowly.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        .container {
+            width: min(1000px, 92%);
+            margin: auto;
+        }
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #ddd;
+            padding: 30px 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .icon {
+            width: 90px;
+            height: 90px;
+            border-radius: 18px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .tagline {
+            margin-top: 8px;
+            color: #666;
+            font-size: 18px;
+        }
+
+        main {
+            padding: 50px 0;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 14px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .screenshot {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            display: block;
+        }
+
+        .download {
+            display: inline-block;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .download:hover {
+            background: #444;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            color: #777;
+            padding: 30px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 600px) {
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-content">
+
+            <!-- Replace this with your own icon -->
+            <img
+                class="icon"
+                src="assets/icon.png"
+                alt="Suspicious Resources icon"
+            >
+
+            <div>
+                <h1>Suspicious Resources</h1>
+
+                <div class="tagline">
+                    Find out why your PC may be running slowly.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+
+<main>
+
+    <div class="container">
+
+        <section class="card">
+            <h2>About</h2>
+
+            <p>
+                Suspicious Resources is a lightweight Windows utility
+                that helps you find out why your PC may be running slowly.
+            </p>
+
+            <p>
+                Simply press <strong>Scan Resources</strong> to get
+                up-to-date information about your CPU, RAM, disk usage,
+                and running processes.
+            </p>
+        </section>
+
+
+        <section class="card">
+            <h2>Screenshot</h2>
+
+            <!-- Replace this with your own screenshot -->
+            <img
+                class="screenshot"
+                src="assets/screenshot.png"
+                alt="Suspicious Resources screenshot"
+            >
+        </section>
+
+
+        <section class="card">
+            <h2>Download</h2>
+
+            <p>
+                Download Suspicious Resources for Windows.
+            </p>
+
+            <!-- The EXE is stored in a subfolder of this repository -->
+            <a
+                class="download"
+                href="downloads/Suspicious%20Resources.exe"
+                download
+            >
+                Download for Windows
+            </a>
+        </section>
+
+
+        <section class="card">
+            <h2>Requirements</h2>
+
+            <ul>
+                <li>Windows 10 or Windows 11</li>
+                <li>64-bit Intel or AMD processor</li>
+            </ul>
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer>
+    <div class="container">
+        Suspicious Resources
+    </div>
+</footer>
+
+</body>
+</html>
+```
